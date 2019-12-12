@@ -7,6 +7,10 @@ public class User {
 	private String email;
 	private String password;
 
+	
+	system.out.println("this is vinod");
+
+
 	public String getName() {
 		return name;
 	}
