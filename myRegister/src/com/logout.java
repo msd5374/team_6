@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class logout extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-
+ 
 	
 
 	/**
@@ -23,6 +23,7 @@ public class logout extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		request.getSession().invalidate();
+System.out.println("invalidated");
 		response.sendRedirect("Login.jsp");
 	}
 
