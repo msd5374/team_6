@@ -40,7 +40,7 @@ public class loginServlet extends HttpServlet {
 		{ 
 		 String name1=request.getParameter("name");
 	     String password1=request.getParameter("password");
-	     
+	     System.out.println("hi");
 	    Connection con= JDBCLoginService.connectionMethod();
 	    PreparedStatement st=con.prepareStatement("select * from user where id=(?) and password=(?)");
 	    st.setString(1, name1);

@@ -4,6 +4,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import com.User;
 
+// testing git is it working fine or shubham is doing something wrong?
 public class JDBCRegisterService
 {
 	public static void connectionMethod(User user){
