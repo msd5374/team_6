@@ -21,7 +21,7 @@ public class registerServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		out.println(" Data inserted In connection page");
+		out.println(" Data iiiiiiinsert");
 		String name = request.getParameter("name");
 		String id = request.getParameter("id");
 		String email = request.getParameter("email");
