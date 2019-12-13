@@ -16,7 +16,7 @@ public class logout extends HttpServlet {
        
 
 	
-
+                System.out.println("logout cahnges");
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
