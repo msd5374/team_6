@@ -43,6 +43,7 @@ public class loginServlet extends HttpServlet {
 		 System.out.println("HELLO TO GIT WORLD...!!!");
  System.out.println("HELLO TO GIT 2nd WORLD...!!!"); 
  System.out.println("13/12/2019!!!"); 
+ System.out.println("again 13/12/2019!!!"); 
 	     
 	    Connection con= JDBCLoginService.connectionMethod();
 	    PreparedStatement st=con.prepareStatement("select * from user where id=(?) and password=(?)");
